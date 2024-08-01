@@ -1,9 +1,15 @@
+import llmimage from '../assets/LLMi.jpg';
+import circus from '../assets/circus.PNG';
+import appli from '../assets/appli.PNG';
+import biblio from '../assets/uijn.PNG';
+import portfo from '../assets/capp.PNG';
+
 export const projects = [
     {
         id: 1,
         title: 'Projet de Scraping Automatisé avec GPT-Neo',
         description: `Ce projet vise à automatiser la collecte et l'analyse de données web à l'aide de GPT-Neo. En utilisant les flux RSS de divers médias, le système extrait des articles, génère des résumés intelligents, et les stocke dans une base de données PostgreSQL. Une interface Flask permet de visualiser les résultats, optimisant la veille informationnelle.`,
-        image: 'https://i.postimg.cc/wMsG2wjC/LLMi.jpg',
+        image: llmimage,
         github: 'https://github.com/Aboubakar1234/LLM_project',
     },
     {
@@ -17,14 +23,14 @@ export const projects = [
         id: 3,
         title: 'Developpment d\'un jeu de clicker avec Vue.js',
         description: `Ce projet consistait à développer un jeu de clicker en utilisant Vue.js. Le jeu est simple: le joueur clique sur un bouton pour gagner des points, et peut ensuite dépenser ces points pour améliorer ses gains. Le jeu est conçu pour être addictif, avec des graphismes colorés et une progression rapide. Vue.js a été utilisé pour gérer l'interface utilisateur et les interactions avec l'utilisateur.`,
-        image: 'https://i.postimg.cc/cLDPsg25/circus.png',
+        image: circus,
         github: 'https://github.com/Aboubakar1234/Project_Circus_clicker',
     },
     {
         id: 4,
         title: 'Développement d\'une Application de Gestion de Bibliothèque avec JAVA et JavaFX',
         description: `Ce projet a impliqué la création d'une application de gestion de bibliothèque exhaustive, conçue pour améliorer et automatiser les processus quotidiens d'une bibliothèque. Les fonctionnalités clés de l'application incluent l'ajout et l'affichage de livres, la gestion des emprunts et des retours, ainsi que la sauvegarde automatique des données dans un fichier. L'application est développée en utilisant JAVA, exploitant les principes de la programmation orientée objet pour une architecture de code modulaire et facile à maintenir. L'interface utilisateur, réalisée avec JavaFX, offre une expérience interactive et intuitive, enrichissant l'engagement utilisateur grâce à des visualisations claires des informations et des données de transaction.`,
-        image: 'https://i.postimg.cc/d1RbcHYG/uijn.png',
+        image: biblio,
         github: 'https://github.com/Aboubakar1234/GestionBibliothequeJavaFX',
     },
     {
@@ -38,7 +44,7 @@ export const projects = [
         id: 6,
         title : "Développement d'une application mobile de Reconnaissance de micro-organismes avec Flutter",
         description: `Ce projet a impliqué le développement d'une application mobile de reconnaissance de micro-organismes, conçue pour aider les biologistes et les chercheurs à identifier rapidement et précisément les espèces de micro-organismes à partir d'images. L'application utilise un modèle de machine learning pré-entraîné pour analyser les images et générer des résultats en temps réel. Flutter a été utilisé pour développer l'interface utilisateur, offrant une expérience utilisateur fluide et intuitive sur les appareils mobiles iOS et Android.`,
-        image: 'https://i.postimg.cc/6QX396Z1/appli.png',
+        image: appli,
         github: 'https://github.com/RicArduino/IA-for-microscopy-EFREI',
     },
     {
@@ -60,7 +66,7 @@ export const projects = [
         title: "Développement d'un portfolio personnel avec React",
         description: `Ce projet consistait à développer un portfolio personnel pour présenter mes compétences, mes projets et mon parcours professionnel. Le portfolio est conçu pour offrir une expérience utilisateur interactive et intuitive, en mettant en valeur mes réalisations et mes compétences clés. React a été utilisé pour développer l'interface utilisateur, en utilisant des composants réutilisables et des animations pour améliorer l'engagement de l'utilisateur.`,
         //image: 'https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg',
-        image: 'https://i.postimg.cc/t7Qzhs1Q/capp.png',
+        image: portfo,
         github:'https://github.com/Aboubakar1234/Portfolio',
     },
     
