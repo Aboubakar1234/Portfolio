@@ -1,38 +1,345 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
+/* Main CSS */
+.main{
+  width: 100%;
   background-color: #282c34;
   min-height: 100vh;
+}
+
+/* Header CSS */
+header{
+  width: 100%;
+  background-color: purple;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+  padding: 10px 20px;
+  height: 300px;
+}
+
+
+
+header .left{
+  display: flex;
+  align-items: center;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+header .left img{
+  width: 170px;
+  height: 180px;
+  border-radius: 50%;
+  margin-right: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+header .left .contacts{
+  display: flex;
+  align-items: center;
+}
+
+header .left .contacts .contact-item{
+  margin-right: 10px;
+  padding: 10px;
+  height: 20px;
+  background-color: #f1f5f7;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+header .left .contacts .contact-item:hover{
+  background-color: #61dafb;
+}
+
+header .right .contact-btn{
+  background-color: #61dafb;
+  color: white;
+  font-size: 15px;
+  margin-right: 100px;
+}
+
+header .right .contact-btn:hover{
+  background-color: #404344;
+}
+
+.main .body-container{
+  width: 100%;
+  padding: 70px 100px;
+  display: flex;
+}
+
+.main .body-container .left{
+  width: 70%;
+}
+
+.main .body-container .left section{
+  background-color: purple;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+.main .body-container .left .projects .project-info{
+  display: flex;
+}
+.main .body-container .left .projects .project-info .contact-item{
+  background-color: white;
+  border-radius: 50%;
+  width: 17px;
+  height: 15px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.main .body-container .left .projects .project-info .contact-item:hover{
+  background-color: #61dafb;
+}
+
+.main .body-container .left section.porjects article{
+  width: 100%;
+} 
+
+.main .body-container .left section.projects article .featured-img{
+  width: 100%;
+  height: 350px; 
+  border-radius: 15px;
+}
+
+.main .body-container .left section.projects article.article-item{
+  display: flex;
+  margin : 10px 0;
+}
+
+.main .body-container .left section.projects article.article-item .left{
+  width: 35%;
+  margin-right: 10px;
+}
+
+.main .body-container .left section.projects article.article-item .left img{
+  padding: 10px;
+  margin-top: 25px;
+  width: 90%;
+  height: 230px;
+  border-radius: 15px;
+}
+.main .body-container .left section.projects article.article-item .right{
+  width: 65%;
+  padding: 10px;
+}
+
+.main .body-container .left section.projects article.article-item .right .contact-item{
+  background-color: white;
+  border-radius: 50%;
+  width: 30px;
+  height: 20px;
+  cursor: pointer;
+  padding: 10px; 
+}
+
+.main .body-container .left section.projects article.article-item .right .contact-item:hover{
+  background-color: #61dafb;
+}
+
+.main .body-container .left section.experience article{
+  width: 95%;
+  background-color: black;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+}
+
+.main .body-container .right{
+  width: 30%;
+  margin-left: 20px;
+}
+
+.main .body-container .right section.information{
+  background-color: purple;
+  width: 70%;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.main .body-container .right section.information.left{
+  width: 50%;
+  margin-right: 20px;
+}
+.main .body-container .right section.information .right{
+  display: flex;
+}
+
+aside {
+  width: 29%;
+  margin-left: 10px;
+  color: white
+}
+
+aside .section {
+  width: 75%;
+  background-color: purple;
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+aside .section h2{
+  margin-bottom: 10px;
+}
+
+aside .contacts .contact-item {
+  margin : 15px 0;
+}
+
+aside .contacts .contact-item span {
+  margin-left : 15px;
+}
+
+aside .skills .skills-list{
+  margin-top :10px;
+}
+
+aside .skills .skills-list .full{
+  width: 100%;
+  background-color: white;
+  height: 15px;
+  border-radius: 7px;
+}
+
+aside .skills .skills-list .full .percent{
+  background-color: green;
+  height: 100%;
+  width: 50%;
+}
+
+aside .skills .skills-list .skill-item{
+  margin : 10px 0;
+}
+
+aside .skills .skills-list .full .python{
+  background-color: green;
+  width: 60%;
+}
+
+aside .skills .skills-list .full .vue{
+  background-color: green;
+  width: 70%;
+}
+
+aside .skills .skills-list .full .react{
+  background-color: green;
+  width: 60%;
+}
+
+aside .skills .skills-list .full .scala{
+  background-color: green;
+  width: 40%;
+}
+
+aside .skills .skills-list .full .java{
+  background-color: green;
+  width: 65%;
+}
+
+aside .skills .skills-list .full .cplus{
+  background-color: green;
+  width: 60%;
+}
+
+aside .skills .skills-list .full .csha{
+  background-color: green;
+  width: 50%;
+}
+
+aside .skills .skills-list .full .flutter{
+  background-color: green;
+  width: 70%;
+}
+
+aside .skills .skills-list .full .html{
+  background-color: green;
+  width: 67%;
+}
+
+aside .education-item{
+  background-color: rgb(8, 168, 168); 
+  margin-bottom: 20px;
+}
+
+aside .section .langues .langue-item .full{
+  width: 100%;
+  background-color: white;
+  height: 15px;
+  border-radius: 7px; 
+}
+
+aside .section .langues .langue-item .full .percent{
+  background-color: green;
+  height: 100%;
+  width: 50%;
+}
+
+aside .section .langues .langue-item .full .anglais{
+  background-color: green;
+  width: 60%;
+}
+
+aside .section .langues .langue-item .full .francais{
+  background-color: green;
+  width: 100%;
+}
+
+aside .section .langues .langue-item{
+  margin : 15px 0;
+  background-color: black;
+}
+
+footer{
+  height: 50px;
+  background-color: purple;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/*Media*/
+
+@media screen and (max-width: 645px){
+  header{
+    flex-direction: column;
+    height: 400px;
   }
-  to {
-    transform: rotate(360deg);
+
+  header .left{
+    margin-bottom: 20px;
+  }
+
+  header .right{
+    margin-top: 20px;
+  }
+
+  .main .body-container{
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .main .body-container .left{
+    width: 100%;
+  }
+
+  .main .body-container .right{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  aside{
+    width: 100%;
+    margin-left: 0;
+  }
+
+  aside .section{
+    width: 100%;
   }
 }
