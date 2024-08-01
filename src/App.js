@@ -15,12 +15,12 @@ function App() {
         <div className="left">
           <section className="about">
             <article>
-              <h2>A propos de moi</h2>
-              <p>Je suis un étudiant passionné en ingénierie logicielle à EFREI Paris, où j'ai développé une passion pour la création de solutions logicielles innovantes et efficaces. Mon parcours académique et mes expériences de projet m'ont permis de maîtriser diverses technologies et langages de programmation, notamment Vue.js, Python, Django, Scala, Java, C++, C#, React, et Flutter. Ma curiosité technique m'a également conduit à explorer différents systèmes de gestion de bases de données comme MongoDB, MySQL Workbench, et PostgreSQL. Cette diversité de compétences renforce ma capacité à concevoir des architectures de données robustes et à optimiser les interactions backend. Utilisateur actif de GitHub, j'emploie cette plateforme pour le contrôle de version, assurant une gestion et une collaboration efficaces sur mes projets. Pour le développement, je privilégie Visual Studio Code et IntelliJ, qui offrent des environnements riches en fonctionnalités adaptés à mes besoins en développement multi-langages. Je suis toujours en quête de nouvelles opportunités pour mettre en pratique mes compétences dans des projets stimulants, cherchant à innover et à pousser les limites de ce que la technologie peut réaliser.</p>
+              <h2>A PROPOS DE MOI</h2>
+              <p>Je suis un étudiant passionné en Sofware engineering à EFREI Paris, où j'ai développé une passion pour la création de solutions logicielles innovantes et efficaces. Mon parcours académique et mes expériences de projet m'ont permis d'acquérir des connaissances dans diverses technologies et langages de programmation, notamment Vue.js, Python, Django, Scala, Java, C++, C#, React, et Flutter. Ma curiosité technique m'a également conduit à explorer différents systèmes de gestion de bases de données comme MongoDB, MySQL Workbench, et PostgreSQL. Cette diversité de compétences renforce ma capacité à concevoir des architectures de données robustes et à optimiser les interactions backend. Utilisateur actif de GitHub, j'emploie cette plateforme pour le contrôle de version, assurant une gestion et une collaboration efficaces sur mes projets. Pour le développement, je privilégie Visual Studio Code et IntelliJ, qui offrent des environnements riches en fonctionnalités adaptés à mes besoins en développement multi-langages. Je suis toujours en quête de nouvelles opportunités pour mettre en pratique mes compétences dans des projets stimulants, cherchant à innover et à pousser les limites de ce que la technologie peut réaliser.</p>
             </article>
           </section>
           <section className="projects">
-            <h2>Mes projets </h2>
+            <h2>MES PROJETS </h2>
             <article>
               <img className='featured-img' src={soft} alt="slug" />
               {/*<div className="project-info">
@@ -59,7 +59,7 @@ function App() {
             }
           </section>
           <section className="experience">
-            <h2>Experience professionnel</h2>
+            <h2>EXPERIENCES PROFESSIONNELLES</h2>
             {
               experience.map((item)=>{
                 return (
@@ -85,7 +85,7 @@ function App() {
             </div>
           </div>
           <div className="skills section">
-            <h2>compétences</h2>
+            <h2>COMPETENCES</h2>
             <p>Dans le cadre de mon parcours professionnel et académique, j'ai acquis des compétences sur plusieurs langages de programmation et technologies. Voici un aperçu de mes compétences :</p>
             <div className="skills-list">
             <div className="skill-item">
@@ -147,7 +147,7 @@ function App() {
           </div>
 
           <div className="section">
-            <h2>Formation</h2>
+            <h2>FORMATIONS</h2>
             {
               educations.map((item)=>{
                 return (
@@ -161,7 +161,7 @@ function App() {
           </div>
 
           <div className="section">
-            <h2>Langues</h2>
+            <h2>LANGUES</h2>
             <div className="langues">
               <div className="langue-item">
                 <h3>Anglais</h3>
